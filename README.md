@@ -13,7 +13,7 @@
 
 ## 🚀 Overview
 
-**Infrastructure Analysis Dashboard** is a high-tech, interactive web application for analyzing and visualizing Terraform state files. Instantly gain insights into your cloud infrastructure, identify security risks, map dependencies, and generate shareable reports—all in a beautiful, modern UI.
+**Infrastructure Analysis Dashboard** is a interactive web application for analyzing and visualizing Terraform state files. Instantly gain insights into your cloud infrastructure, identify security risks, map dependencies, and generate shareable reports—all in a beautiful, modern UI.
 
 ---
 
@@ -31,9 +31,10 @@
 
 ## 🖥️ Screenshots
 
-<p align="center">
-  <img src="public/pcoDP_KqQC2xfBfOideQaQ-removebg-preview.png" alt="App Logo" width="120" />
-</p>
+
+![image](https://github.com/user-attachments/assets/59c72066-884c-4ee2-8398-2c3e148503a9)
+![image](https://github.com/user-attachments/assets/a2a08102-f935-4e02-8ec9-041ceda612fc)
+![image](https://github.com/user-attachments/assets/f8ea7c7a-4acc-43b2-93de-b7ae35bd26eb)
 
 ---
 
@@ -82,20 +83,6 @@ The app will be available at [http://localhost:5173](http://localhost:5173) (or 
 
 ---
 
-## 🤖 Project Structure
-
-```
-/public
-  └── pcoDP_KqQC2xfBfOideQaQ-removebg-preview.png  # Logo
-/src
-  ├── components/   # UI components (Dashboard, FileUpload, etc.)
-  ├── hooks/        # Custom React hooks
-  ├── contexts/     # Context providers (e.g., Theme)
-  ├── utils/        # Utility functions
-  └── App.tsx       # Main app logic
-```
-
----
 
 ## 🧑‍💻 Contributing
 
@@ -106,11 +93,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## 📄 License
 
 [MIT](LICENSE)
-
----
-
-<p align="center">
-  <img src="public/pcoDP_KqQC2xfBfOideQaQ-removebg-preview.png" alt="Logo" width="60" />
-  <br/>
-  <b>Analyze. Visualize. Secure.</b>
-</p>
