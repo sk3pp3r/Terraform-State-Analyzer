@@ -8,7 +8,7 @@ import { ExportReport } from './components/ExportReport';
 import { ThemeToggle } from './components/ThemeToggle';
 import { useFileProcessor } from './hooks/useFileProcessor';
 import { ThemeProvider } from './contexts/ThemeContext';
-import { GitHub, LinkedIn, Briefcase } from "lucide-react";
+import { Github, Linkedin, Briefcase } from "lucide-react";
 
 type ViewMode = 'upload' | 'dashboard' | 'security' | 'network' | 'dependencies' | 'export';
 
@@ -218,7 +218,7 @@ function AppContent() {
                 className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm transition-colors" 
                 aria-label="LinkedIn"
               >
-                <LinkedIn className="w-5 h-5" />
+                <Linkedin className="w-5 h-5" />
               </a>
               <a 
                 href="https://sk3pp3r.github.io/" 
@@ -236,7 +236,7 @@ function AppContent() {
                 className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm transition-colors"
                 aria-label="GitHub Repository"
               >
-                <GitHub className="w-5 h-5" />
+                <Github className="w-5 h-5" />
               </a>
             </div>
           </div>
