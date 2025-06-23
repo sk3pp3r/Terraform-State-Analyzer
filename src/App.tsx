@@ -8,6 +8,7 @@ import { ExportReport } from './components/ExportReport';
 import { ThemeToggle } from './components/ThemeToggle';
 import { useFileProcessor } from './hooks/useFileProcessor';
 import { ThemeProvider } from './contexts/ThemeContext';
+import { Github } from 'lucide-react';
 
 type ViewMode = 'upload' | 'dashboard' | 'security' | 'network' | 'dependencies' | 'export';
 
@@ -23,8 +24,8 @@ function AppContent() {
     setCurrentView('dashboard');
   };
 
-  const handleViewChange = (view: ViewMode) => {
-    setCurrentView(view);
+  const handleViewChange = (view: string) => {
+    setCurrentView(view as ViewMode);
   };
 
   const handleBackToDashboard = () => {
@@ -225,6 +226,15 @@ function AppContent() {
                 className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm transition-colors"
               >
                 Portfolio
+              </a>
+              <a
+                href="https://github.com/sk3pp3r/Terraform-State-Analyzer"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                aria-label="GitHub Repository"
+              >
+                <Github className="w-5 h-5" />
               </a>
             </div>
           </div>
